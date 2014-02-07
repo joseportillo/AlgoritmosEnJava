@@ -15,11 +15,34 @@ mostrar
 public class productToNumber {   
 
    public static void main(String[] args) {
-   		int resultado = 0;
-   		System.out.println(args[0]);
 
-
-   		System.out.println("el producto es: "+resultado);
+		int num=0;
+		int factorial = 1;
+		int numero;
+int resul=0;
+   		
+		numero= Integer.parseInt(args[0].toString());
+				
+		while(num < numero-1) {
+		num++;
+		System.out.print(num+"x");
+				
+		factorial = factorial * num;
+		resul =factorial*numero;
+				
+		}
+				
+		
+		
+		
+		System.out.println(numero+ "=" +resul);
+   		
+   		
+	
+			
+		
+		
+		
       
    }
 
